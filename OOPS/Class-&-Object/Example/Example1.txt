@@ -1,0 +1,23 @@
+class Example1 {
+
+    static int count = 0;
+
+    Example() {
+
+        count++;
+
+    }
+
+    public static void main(String[] args) {
+
+        new Example1();
+
+        new Example1();
+
+        new Example1();
+
+        System.out.println(Example1.count);
+
+    }
+
+}
